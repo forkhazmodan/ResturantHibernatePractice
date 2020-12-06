@@ -4,6 +4,13 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <listener>
+    <listener-class>
+      max.utils.MyAppServletContextListener
+    </listener-class>
+  </listener>
+
   <servlet>
     <servlet-name>Menu Items</servlet-name>
     <servlet-class>max.servlets.MenuItemsServlet</servlet-class>
